@@ -1,18 +1,27 @@
 # RusOutput
 
-`RusOutput.jsx` is a React practice app for spoken Russian.
+RusOutput is a React app for practicing spoken Russian.
 
-It combines:
+It includes:
 - a phrase bank with categories and pronunciation notes
-- spaced-repetition flashcards for review
+- spaced-repetition flashcards
 - browser text-to-speech for Russian playback
 - a presentation rehearsal mode that tracks difficult sentences
 
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
 ## Notes
 
-- The component now works with either a host-provided `window.storage` API or regular browser `localStorage`.
-- This folder currently contains the main app component only, not a full React scaffold.
-
-## Main File
-
-- `RusOutput.jsx`
+- The app works with either a host-provided `window.storage` API or regular browser `localStorage`.
+- The main application component still lives in `RusOutput.jsx`.
